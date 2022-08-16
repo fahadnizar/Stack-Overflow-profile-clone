@@ -1,0 +1,234 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.headerleft img{
+    object-fit: contain;
+    height: 70px;
+    margin-left: 5px;
+    padding-right: 10px;
+    
+}
+.about{
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: gray;
+    padding: 7px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    
+}
+.about h3{
+    font-size: small;
+    font-weight: 400;
+
+}
+
+.about:hover {
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: rgb(32, 31, 31);
+    padding: 7px;
+    border-radius: 30px;
+    background-color: rgb(230, 225, 225);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 2px -2px ;
+    
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(238, 233, 233);
+    border-top: 4px solid rgb(231, 89, 6);
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.headerleft span{
+    padding: 10px;
+    cursor: pointer;
+}
+.headermiddle {
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color:white;
+    /* padding: 3px; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px -5px ;
+}
+
+.material-symbols-outlined{
+    color:gray;
+}
+.headermiddle input {
+    border: none;
+    width:100%;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: white;
+}
+.headerright{
+    display: flex;
+    padding-right: 50px;
+
+}
+
+.sigbt{
+    padding: 10px;
+    cursor: pointer;    
+    align-items: center;
+    border-color: rgb(74, 160, 175);
+    border-radius: 3px;
+    background-color: rgb(52, 152, 199);
+    margin-right: 15px;
+    color: white;
+    
+    
+}
+
+.logbt{
+    padding: 10px;
+    cursor: pointer;    
+    align-items: center;
+    border-color: rgb(74, 160, 175);
+    border-radius: 3px;
+    background-color: rgb(174, 197, 207);
+    margin-right: 15px;
+    color: rgb(98, 156, 179);
+}
+
+.sidebody {
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+ }
+
+.home{
+    color: gray;
+    font-weight: 400;
+    font-size: small;
+    padding-left: 15px;
+    margin-top: 15px;
+
+}
+.home:hover{
+    color: black;
+
+ }
+ .public{
+    color: gray;
+    font-weight: 400;
+    font-size: small;
+    padding-left: 15px;
+    margin-top: 15px;
+ }
+ 
+.questions{
+    margin-top: 5px;
+}
+.tags{
+    font-weight: 400;
+    font-size: small;
+    padding-left: 15px;
+    margin-left: 35px;
+}
+.users{
+    font-weight: 750;
+    font-size: small;
+    padding-left: 15px;
+    margin-left: 35px;
+    margin-top: 15px;
+    background-color: #ced7d8;
+    padding: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.companies{
+    font-weight: 400;
+    font-size: small;
+    padding-left: 15px;
+    margin-left: 35px;
+    margin-top: 10px;
+
+}
+.collectives{
+    font-weight: 400;
+    font-size: small;
+    padding-left: 1px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+.explore{
+    font-weight: 400;
+    font-size: small;
+    padding-left: 1px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.material-symbols-outlined {
+    margin-right: -4px;
+}
+
+.sidebodyopt{
+    display: flex;
+    align-items: 40px;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    color: rgb(77, 75, 75);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.sidebodyopt h3{
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.sidebarOpt:hover,
+.sidebarOpt:hover h3,
+.sidebarOpt:hover .material-symbols-outlined,
+.sidebarOpt__active,
+.sidebarOpt__active h3,
+.sidebarOpt__active .material-symbols-outlined {
+  background-color: #fcecec;
+  color: red;
+  font-weight: 800;
+}
+
+
+.sidebodyopt:hover,
+.material-symbols-outlined:hover h3 {
+    background-color: rgb(248, 230, 230);
+    color: rgb(90, 86, 86);
+}
+/* bigbody */
