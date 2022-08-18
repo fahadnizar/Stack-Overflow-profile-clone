@@ -256,7 +256,8 @@
 /* bigbody */
 .bigbody{
     display:flex;
-    height:100vh
+    height:100vh;
+    overflow-x: scroll;
 }
 body{
     height: 100vh;
@@ -296,7 +297,6 @@ body{
 .box{
     width: 300px;
     padding-right: 100px;
-    /* margin: 20px; */
     margin-right: 480px;
 
 }
@@ -390,4 +390,49 @@ body{
     box-shadow: 0px 2px 2px -2px ;
     
 }
+.stats{
+    display: flex;
+   
+}
 
+.statbox{
+   width: 260px;
+   border: 1px solid rgb(221, 225, 221);
+   padding-bottom:15px;
+   margin: 10px;
+   border-radius: 5px;
+   display: flex;
+
+}
+.statbox  h3{
+    font-weight: 100;
+}
+
+.aboutbox{
+    margin-top: -195px;
+    margin-left:310px ; 
+}
+.aboutbox h3{
+    font-weight:100 ;
+    font-size: 15px;
+    color: rgb(65, 64, 64);
+}
+
+.colltbox{
+    width: 260px;
+   border: 1px solid rgb(221, 225, 221);
+   padding-bottom:15px;
+   margin: 10px;
+   border-radius: 5px;
+   display: flex;
+}
+
+.commubox{
+    width: 260px;
+    border: 1px solid rgb(221, 225, 221);
+    padding-bottom:15px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    
+}
