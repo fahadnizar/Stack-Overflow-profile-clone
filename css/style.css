@@ -396,7 +396,7 @@ body{
 }
 
 .statbox{
-   width: 260px;
+   width: 240px;
    border: 1px solid rgb(221, 225, 221);
    padding-bottom:15px;
    margin: 10px;
@@ -419,7 +419,7 @@ body{
 }
 
 .colltbox{
-    width: 260px;
+    width: 240px;
    border: 1px solid rgb(221, 225, 221);
    padding-bottom:15px;
    margin: 10px;
@@ -428,11 +428,141 @@ body{
 }
 
 .commubox{
-    width: 260px;
+    width: 240px;
+    height: 1px;
     border: 1px solid rgb(221, 225, 221);
-    padding-bottom:15px;
+    padding-bottom:205px;
     margin: 10px;
     border-radius: 5px;
     display: flex;
     
 }
+.badgebox{
+    width: 240px;
+    height: 1px;
+    border: 1px solid rgb(221, 225, 221);
+    padding-bottom:205px;
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+
+}
+.butnbox ul li::before{
+    content: "\2022";
+    color: yellow;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.5em;
+    font-size: 170;
+}
+
+.butnbox button {
+    padding: 5px;
+    cursor: pointer;    
+    align-items: center;
+    border-color: rgb(204, 207, 208);
+    border-radius: 4px;
+    border-width: 1.5px;
+    /* background-color: rgb(12, 173, 248); */
+    margin-right: 15px;
+    /* color: white; */
+    margin-top: -1px;
+    font-size: 12px;
+}
+
+.butnbox button:hover{
+    background-color:rgb(224, 230, 230) ;
+
+}
+.silbdgbox{
+    width: 240px;
+    height: 1px;
+    border: 1px solid rgb(221, 225, 221);
+    padding-bottom:205px;
+    /* margin: 10px; */
+    margin-left:590px ;
+    margin-top: -208px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.butn2box button {
+    padding: 5px;
+    cursor: pointer;    
+    align-items: center;
+    border-color: rgb(204, 207, 208);
+    border-radius: 4px;
+    border-width: 1.5px;
+    /* background-color: rgb(12, 173, 248); */
+    margin-right: 15px;
+    /* color: white; */
+    margin-top: -1px;
+    font-size: 12px;
+}
+.butn2box button:hover{
+    background-color:rgb(224, 230, 230) ;
+
+}
+.butn3box button:hover{
+    background-color:rgb(224, 230, 230) ;
+
+}
+
+.brobdgbox{
+    width: 240px;
+    height: 1px;
+    border: 1px solid rgb(221, 225, 221);
+    padding-bottom:205px;
+    /* margin: 10px; */
+    margin-left:860px ;
+    margin-top: -208px;
+    border-radius: 5px;
+    display: flex;
+}
+.butn3box button {
+    padding: 5px;
+    cursor: pointer;    
+    align-items: center;
+    border-color: rgb(204, 207, 208);
+    border-radius: 4px;
+    border-width: 1.5px;
+    /* background-color: rgb(12, 173, 248); */
+    margin-right: 15px;
+    /* color: white; */
+    margin-top: -1px;
+    font-size: 12px;
+}
+
+.toptags{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    
+}
+
+.toptags ul li::after {
+    /* content: "\2022"; */
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 2em;
+  }
+  .toptags button {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 1px;
+    border-width: 0px;
+    background-color: rgba(178, 227, 227, 0.993);
+    color: rgb(61, 61, 224);
+    border-color: rgba(178, 227, 227, 0.993)ua;
+  }
