@@ -12,6 +12,57 @@
     margin-top: -10px;
     
 }
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: aqua;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
 .about{
     margin-left: 10px;
     text-transform: capitalize;
@@ -128,7 +179,7 @@
     max-width: 200px;
     padding-right: 1px;
     margin-right: 1px;
-
+    overflow: scroll;
 }
 
 .home{
@@ -252,6 +303,43 @@
 .sidebodyopt:hover,
 .material-symbols-outlined:hover h3 {
     color: rgb(8, 8, 8);
+}
+
+.teams{
+    width: 130px;
+    height: 240px;
+    background-color: white;
+    border: 1px solid darkgray;
+    /* position: relative; */
+    margin-top: -20px;
+    margin-left:30px;
+    font-size: small;
+    border-right:transparent ;
+    
+}
+.teamsbd{
+    padding: 1px;
+}
+.teams img{
+    object-fit: contain;
+    height: 100px;
+    margin-left:10px;
+    width: 100px;
+}
+
+.teamsbt{
+    align-items: center;
+    height: 30px;
+    padding: 0 16px;
+    margin-top: 0px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    background-color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 5px ;
+    border-top: 2px solid white;
 }
 /* bigbody */
 .bigbody{
@@ -544,7 +632,32 @@ body{
     /* margin: 10px; */
     margin-left:300px ;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 5px 5px 1px 1px;
+    display: flex;
+    
+}
+
+.toptagm{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 0px;
+    border-radius: 0px;
+    display: flex;
+}
+
+.toptagl{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 0px;
+    border-radius: 1px 1px 5px 5px;
     display: flex;
     
 }
@@ -557,7 +670,42 @@ body{
     width: 1em;
     margin-left: 2em;
   }
+  .toptagm ul li::after {
+    /* content: "\2022"; */
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 2em;
+  }
+  .toptagl ul li::after {
+    /* content: "\2022"; */
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 2em;
+  }
   .toptags button {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 1px;
+    border-width: 0px;
+    background-color: rgba(178, 227, 227, 0.993);
+    color: rgb(61, 61, 224);
+    border-color: rgba(178, 227, 227, 0.993)ua;
+  }
+
+  .toptagm button {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 1px;
+    border-width: 0px;
+    background-color: rgba(178, 227, 227, 0.993);
+    color: rgb(61, 61, 224);
+    border-color: rgba(178, 227, 227, 0.993)ua;
+  }
+  .toptagl button {
     margin-top: 15px;
     margin-left: 15px;
     padding: 1px;
