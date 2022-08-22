@@ -14,51 +14,6 @@
 }
 
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: aqua;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
 
 
@@ -345,12 +300,12 @@
 .bigbody{
     display:flex;
     height:100vh;
-    overflow-x: scroll;
+   
 }
 body{
     height: 100vh;
     overflow-y: hidden;
-    
+    position: relative;
 }
 
 
@@ -532,7 +487,7 @@ body{
     padding-bottom:205px;
     /* margin: 10px; */
     margin-left:300px ;
-    margin-top: 5px;
+    margin-top: -160px;
     border-radius: 5px;
     display: flex;
 
@@ -571,8 +526,8 @@ body{
     border: 1px solid rgb(221, 225, 221);
     padding-bottom:205px;
     /* margin: 10px; */
-    margin-left:590px ;
-    margin-top: -208px;
+    margin-left:580px ;
+    margin-top: -175px;
     border-radius: 5px;
     display: flex;
 }
@@ -606,7 +561,7 @@ body{
     padding-bottom:205px;
     /* margin: 10px; */
     margin-left:860px ;
-    margin-top: -208px;
+    margin-top: -173px;
     border-radius: 5px;
     display: flex;
 }
@@ -662,33 +617,12 @@ body{
     
 }
 
-.toptags ul li::after {
-    /* content: "\2022"; */
-    color: red;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: 2em;
-  }
-  .toptagm ul li::after {
-    /* content: "\2022"; */
-    color: red;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: 2em;
-  }
-  .toptagl ul li::after {
-    /* content: "\2022"; */
-    color: red;
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: 2em;
-  }
+
+
   .toptags button {
     margin-top: 15px;
     margin-left: 15px;
+    margin-bottom: 10px;
     padding: 1px;
     border-width: 0px;
     background-color: rgba(178, 227, 227, 0.993);
@@ -699,6 +633,8 @@ body{
   .toptagm button {
     margin-top: 15px;
     margin-left: 15px;
+    margin-bottom: 10px;
+
     padding: 1px;
     border-width: 0px;
     background-color: rgba(178, 227, 227, 0.993);
@@ -708,9 +644,177 @@ body{
   .toptagl button {
     margin-top: 15px;
     margin-left: 15px;
+    margin-bottom: 10px;
     padding: 1px;
     border-width: 0px;
     background-color: rgba(178, 227, 227, 0.993);
     color: rgb(61, 61, 224);
     border-color: rgba(178, 227, 227, 0.993)ua;
+  }
+
+
+
+
+
+
+
+
+
+
+/* top meta post */
+
+
+.metatags{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 5px;
+    border-radius: 5px 5px 1px 1px;
+    display: flex;
+    
+}
+
+.metatagm{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 0px;
+    border-radius: 0px;
+    display: flex;
+}
+
+.metatagl{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 0px;
+    border-radius: 1px 1px 5px 5px;
+    display: flex;
+    
+}
+
+
+
+  .metatags button {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    border-width: 1px;
+    border-radius:5px  ;
+    background-color: rgba(242, 246, 246, 0.993);
+    color: rgb(52, 52, 54);
+    border-color: rgb(182, 187, 189);
+  }
+
+  .metatagm button {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+    padding: 5px;
+    text-align: center;
+
+    border-width: 1px;
+    border-radius:5px  ;
+    background-color: rgba(242, 246, 246, 0.993);
+    color: rgb(52, 52, 54);
+    border-color: rgb(182, 187, 189);
+  }
+  .metatagl button {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+
+    border-width: 1px;
+    border-radius:5px  ;
+    background-color: rgba(242, 246, 246, 0.993);
+    color: rgb(52, 52, 54);
+    border-color: rgb(182, 187, 189);
+  }
+
+/* topmeta post and top network ens */
+
+
+
+
+
+
+
+
+
+
+  .dropbtn {
+    background-color: #eef0ef;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin-left: -150px;
+    cursor: pointer;
+    
+  }
+  
+  .dropdown button{
+    /* border-color: rgb(33, 9, 158); */
+    color: rgb(128, 123, 125);
+    border-radius: 10px;
+    border-width: 20px;
+    
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -150px;
+    margin-top:1px ;
+    padding-top: 15px;
+
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #d2d8d2;}
+
+  .postbt button {
+    color: rgb(69, 67, 67);
+    background-color: inherit;
+    border-width: 1px ;
+    border-color: rgb(104, 105, 106);
+    padding: 3px;
+  }
+
+  .postbt button:hover  {
+
+    background-color: rgb(248, 249, 250);
   }
