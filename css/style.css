@@ -70,7 +70,13 @@
 
 }
 
+.headerleft img {
+	width:30px;
+}
 
+.stackh3{
+	font-weight: 400;
+}
 
 .headermiddle {
     display: flex;
@@ -235,6 +241,25 @@
     /* overflow-y: scroll; */
 }
 
+.sidebodyoptstar {
+    display: flex;
+    align-items: 40px;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    color: rgb(77, 75, 75);
+    margin-left: 10px;
+    margin-top: 5px;
+
+    /* overflow-y: scroll; */
+}
+
+.sidebodyoptstar span{
+    color: rgb(245, 99, 9);
+}
+
 .sidebodyopt h3{
     flex: 1;
     margin-left: 10px;
@@ -296,6 +321,11 @@
     border-radius: 5px ;
     border-top: 2px solid white;
 }
+
+.whyteams{
+	margin-left:35px ;
+
+}
 /* bigbody */
 .bigbody{
     display:flex;
@@ -306,6 +336,7 @@ body{
     height: 100vh;
     overflow-y: hidden;
     position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
@@ -319,8 +350,7 @@ body{
     overflow:scroll;
 }
 .listsetting {
-    position:sticky;
-    top: 0;
+    
     display: flex;
     justify-content: space-between;
     border-bottom: 1px whitesmoke;
@@ -331,10 +361,13 @@ body{
 
 .listsettingleft{
     box-shadow: 1px 0px 5px -1px rgb(220, 225, 228);
-    
-    
-    
-    
+        
+}
+
+
+.listsettingleft img{
+	width:140px 
+	
 }
 
 .box{
@@ -388,6 +421,31 @@ body{
     margin-top: -15px;
 }
 
+.twitter{
+
+width:16px; 
+height: 16px; 
+margin-top: 5px; 
+margin-left: 5px; 
+ }
+
+
+.git{
+width:25px; 
+height: 25px; 
+margin-top: 1px; 
+margin-left: 5px;
+
+}
+
+.link1{
+
+width:16px; 
+height: 16px;
+margin-top: 5px; 
+margin-left: 4px; 
+}
+
 .section{
     display: flex;
     cursor: pointer;
@@ -437,6 +495,83 @@ body{
     display: flex;
    
 }
+.stats1{
+margin-left: 400px;  
+font-size: large;
+font-weight: 100;
+margin-left: 12px;
+margin-top:15px;
+}
+ 
+.about1{
+margin-left: 400px;
+font-size: large;
+font-weight: 100;
+margin-left: 260px;
+margin-top: 15px;
+}
+
+.statnum{
+margin-top: 15px; 
+margin-left: 12px;
+font-size: large;
+ }
+
+.statnum2{
+margin-left:55px;
+margin-top: 15px; 
+}
+
+.statnum3 {
+margin-left: -196px; 
+margin-top: 35px; 
+color: rgb(139, 143, 143); 
+font-size:15px ;
+}
+
+.statnum4{
+margin-left: 67px; 
+margin-top: 35px; 
+color: rgb(139, 143, 143); 
+font-size:15px ;
+}
+.statnum5{
+margin-top: 75px; 
+margin-left: -190px;
+}
+
+.statnum6 {
+margin-top: 75px; 
+margin-left: 77px;
+} 
+
+.statnum7{
+margin-left: -155px;
+margin-top: 95px; 
+color: rgb(139, 143, 143); 
+font-size:15px ;
+}
+
+.statnum8{
+margin-left: 78px; 
+margin-top: 95px; 
+color: rgb(139, 143, 143); 
+font-size:15px ;
+}
+
+.cupimg{
+width:20px; 
+height: 18px; 
+margin-top: 135px;
+margin-left: -199px;
+}
+
+.statnum9{
+margin-left: -20px; 
+margin-top: 155px; 
+color: rgb(139, 143, 143); 
+font-size:15px ;
+}
 
 .statbox{
    width: 240px;
@@ -461,6 +596,35 @@ body{
     color: rgb(65, 64, 64);
 }
 
+.abot{
+margin-top:4px; 
+}
+
+.abot2{
+margin-top:4px;
+}
+
+.author{
+margin-top: -59px; 
+margin-left: 375px;
+}
+
+.authlink {
+font-size: 15px; 
+font-weight: 400;
+}
+
+.sites{
+font-weight: 400; 
+font-size: 14px; 
+margin-left: 310px; 
+margin-top:60px; 
+color: rgb(65, 64, 64);
+} 
+
+.ulstyle{
+margin-left:335px ;
+}
 .colltbox{
     width: 240px;
    border: 1px solid rgb(221, 225, 221);
@@ -655,8 +819,90 @@ body{
 
 
 
+/*top posts*/
 
 
+.topptags{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 5px;
+    border-radius: 5px 5px 1px 1px;
+    display: flex;
+    
+}
+
+.topptagm{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 0px;
+    border-radius: 0px;
+    display: flex;
+}
+
+.topptagl{
+    width: 800px;
+    height: 50px;
+    border: 1px solid rgb(221, 225, 221);
+    /* padding-bottom:205px; */
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: 0px;
+    border-radius: 1px 1px 5px 5px;
+    display: flex;
+    
+}
+
+
+
+.topptags button {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 1px;
+    border-width: 0px;
+    background-color: green;
+    color: white;
+    border-color: rgba(178, 227, 227, 0.993)ua;
+    border-radius:3px;	
+}
+
+  .topptagm button {
+     margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+    padding: 1px;
+    border-width: 0px;
+    background-color: green;
+    color: white;
+    border-color: rgba(178, 227, 227, 0.993)ua;
+    border-radius:3px;
+}
+  .topptagl button {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 1px;
+    border-width: 0px;
+    background-color: green;
+    color: white;
+    border-color: rgba(178, 227, 227, 0.993)ua;
+    border-radius:3px;
+  }
+
+
+
+
+
+/*top post ends*/
 
 
 
@@ -764,8 +1010,34 @@ body{
     border: none;
     margin-left: -150px;
     cursor: pointer;
+    font-size:13px;
     
   }
+
+.meta2{
+
+width:15px;
+
+} 
+
+.metauser {
+font-size: 13px; 
+margin-top: -33px; 
+margin-left:1px ;
+}
+
+
+.netwrk{
+width:20px; 
+}
+
+.netprof {
+font-size: 13px; 
+margin-top: -33px; 
+margin-left:1.5px;
+}
+
+
   
   .dropdown button{
     /* border-color: rgb(33, 9, 158); */
