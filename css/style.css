@@ -625,6 +625,343 @@ color: rgb(65, 64, 64);
 .ulstyle{
 margin-left:335px ;
 }
+
+.a1{
+font-size: 15px; 
+font-weight: 400; 
+margin-top:20px ;
+}
+.a2{
+font-size: 15px; 
+font-weight: 400;
+margin-top:10px ;
+}
+.a3{
+font-size: 15px; 
+font-weight: 400;
+margin-top:10px ;
+}
+.a4{
+font-size: 15px; 
+font-weight: 400;
+margin-top:10px ;
+}
+
+.emailskeet{
+font-weight:100 ;
+font-size: 15px;
+color: rgb(65, 64, 64); 
+margin-left: 305px; 
+margin-top:15px ; 
+}
+
+.blog1{
+margin-top: -17px; 
+margin-left: 585px;
+}
+.blog2{
+font-size: 15px; 
+font-weight: 400;
+}
+.blog3{
+font-weight:100 ;
+font-size: 15px;
+color: rgb(65, 64, 64); 
+margin-left: 898px; 
+margin-top:-17px ; 
+}
+.collective{
+font-size: large; 
+font-weight: 100;
+margin-left: 12px; 
+margin-top:-25px ;
+ }
+
+.imgcollt{
+width:30px; 
+height: 30px; 
+margin-top: 10px; 
+margin-left: 4px; }
+
+.gcloud{
+font-weight: 400; 
+margin-top: 5px; 
+}
+.employeee{
+font-weight: 400; 
+margin-top: -39px; 
+font-size: 10px;  
+margin-left: 55px;
+}
+.commun{
+font-size: large; 
+font-weight: 100;
+margin-left: 12px; 
+margin-top:55px ; 
+}
+
+.viwall{
+margin-top:-85px; 
+margin-left: 185px; 
+font-size: 13px; 
+font-weight: 100;
+}
+
+.imglinking{
+width:15px; 
+height: 15px; 
+margin-top: 65px; 
+margin-left: 4px; 
+}
+.logo1{
+margin-top:-175px; 
+margin-left: 20px; 
+}
+
+.logo2img{
+width:20px;
+}
+.metatxt{
+font-weight: 100; 
+margin-top:-20px ;
+font-size: 12px; 
+color: blue; 
+margin-left: 45px; 
+}
+.supusrimg1{
+margin-top:10px; 
+margin-left: 24px; 
+}
+
+.superusrimg2{
+width:14px;
+}
+
+.supusrtxt{
+font-weight: 100; 
+margin-top:-20px ;
+font-size: 12px; 
+color: blue; 
+margin-left: 45px; 
+}
+
+.serfltimg{
+margin-top:10px; 
+margin-left: 19px; 
+}
+
+.srvfltimg2{
+width:29px;
+}
+
+.srvflttxt{
+font-weight: 100; 
+margin-top:-25px ;
+font-size: 12px; 
+color: blue; 
+margin-left: 45px; 
+}
+
+.sftengimg1{
+margin-top:10px; 
+margin-left: 14px; 
+}
+
+.sftimg2{
+width:37px; }
+
+.sftengtxt{
+font-weight: 100; 
+margin-top:-25px ;
+font-size: 12px; 
+color: blue; 
+margin-left: 45px; 
+}
+.statcomm{
+font-size: large; 
+font-weight: 100; 
+margin-left: 12px; 
+margin-top:100px ; 
+color:rgb(255, 255, 255) ;
+}
+
+.staticonimg{
+margin-top:-270px; 
+margin-left: 20px; 
+}
+.staticimg2{
+width:20px; 
+}
+
+.stcktxt{
+font-weight: 100; 
+margin-top:-15px ;
+font-size: 12px; 
+color: blue; 
+margin-left: 45px;
+}
+.badgetxt{
+font-size: large; 
+font-weight: 100; 
+margin-left:300px ; 
+margin-top: -60px; }
+
+.viewbdg{
+font-size: 13px; 
+font-weight: 100; 
+margin-left:1000px ; 
+margin-top: -20px; 
+}
+.million{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:205px; 
+margin-top:30px ;
+}
+
+.ratingk{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:205px; 
+margin-top:21px ; 
+}
+
+.ratingk2{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:205px; 
+margin-top:14px ;
+}
+.ratingk3{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:205px; 
+margin-top:19px ;
+}
+.ratingk4{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:205px; 
+margin-top:31px ;
+}
+.badgimg1{
+margin-left: 20px; 
+margin-top: 10px;
+}
+.badgeimg2{
+width:50px;
+}
+.bdgno{
+margin-top: 20px; 
+margin-left: 10px;
+}
+.gbdgtxt{
+margin-left: -31px; 
+margin-top: 40px; 
+font-weight: 400; 
+font-size: small; 
+}
+
+.delegats{
+margin-top:70px ; 
+margin-left:-125px;
+}
+
+.boxgbutton{
+padding-left:19px; 
+}
+.boxgbutton2{
+margin-left: -125px; 
+margin-top:15px ;
+
+}
+
+.btn2txt{
+padding-left:19px ;
+}
+
+.boxgbutton3{
+margin-left:-125px;
+margin-top:15px;
+}
+.btn3txt{
+padding-left:19px;
+}
+
+.ratingGbox1{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:495px; 
+margin-top:-130px ;
+}
+
+.ratingGbox2{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:495px; 
+margin-top:30px ;
+}
+.ratingGbox3{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:495px; 
+margin-top:30px ;
+
+}
+.silverimg1{
+margin-left: 20px; 
+margin-top: 10px;
+}
+.silverimg2{
+width:50px; 
+
+}
+.ratingSbox1{
+margin-top:20px; 
+margin-left: 10px;
+}
+.ratingSbox2{
+margin-left: -47px; 
+margin-top: 40px; 
+font-weight: 400; 
+font-size: small; 
+}
+.Sbtntxt{
+margin-top:70px ; 
+margin-left:-125px;
+}
+.Sbtntxt2{
+padding-left:19px;
+}
+.Sbtntxt3{
+margin-left: -125px; 
+margin-top:15px ;
+}
+
+.Sbtntxt4{
+padding-left:19px ;
+}
+.Sbtntxt5{
+margin-left:-125px;
+margin-top:15px;
+}
+
+.Sbtntxt6" {
+padding-left:19px ;
+}
+
+
+
+
+
 .colltbox{
     width: 240px;
    border: 1px solid rgb(221, 225, 221);
@@ -645,6 +982,105 @@ margin-left:335px ;
     
 }
 .badgebox{
+    width: 240px;
+    height: 1px;
+    border: 1px solid rgb(221, 225, 221);
+    padding-bottom:205px;
+    /* margin: 10px; */
+    margin-left:300px ;
+    margin-top: -160px;
+    border-radius: 5px;
+    display: flex;
+
+}
+.butnbox ul li::before{
+    content: "\2022";
+    color: yellow;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.5em;
+    font-size: 170;
+}
+
+.butnbox button {
+    padding: 5px;
+    cursor: pointer;    
+    align-items: center;
+    border-color: rgb(204, 207, 208);
+    border-radius: 4px;
+    border-width: 1.5px;
+    /* background-color: rgb(12, 173, 248); */
+    margin-right: 15px;
+    /* color: white; */
+    margin-top: -1px;
+    font-size: 12px;
+}
+
+.butnbox button:hover{
+    background-color:rgb(224, 230, 230) ;
+
+}
+.silbdgbox{
+    width: 240px;
+    height: 1px;
+    border: 1px solid rgb(221, 225, 221);
+    padding-bottom:205px;
+    /* margin: 10px; */
+    margin-left:580px ;
+    margin-top: -175px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.butn2box button {
+    padding: 5px;
+    cursor: pointer;    
+    align-items: center;
+    border-color: rgb(204, 207, 208);
+    border-radius: 4px;
+    border-width: 1.5px;
+    /* background-color: rgb(12, 173, 248); */
+    margin-right: 15px;
+    /* color: white; */
+    margin-top: -1px;
+    font-size: 12px;
+}
+.butn2box button:hover{
+    background-color:rgb(224, 230, 230) ;
+
+}
+.butn3box button:hover{
+    background-color:rgb(224, 230, 230) ;
+
+}
+
+.silboxdate1{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:760px; 
+margin-top:-130px ;
+}
+
+.silboxdate2{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:760px; 
+margin-top:30px ;
+}
+.silboxdate3{
+font-size:10px ; 
+font-weight:100; 
+color: gray; 
+margin-left:760px; 
+margin-top:30px ;
+}
+
+
+
+}.badgebox{
     width: 240px;
     height: 1px;
     border: 1px solid rgb(221, 225, 221);
