@@ -8,7 +8,7 @@
 	height: 60px;
 	margin-left: 20px;
 	padding-right: -20px;
-	margin-top: -10px;
+	margin-top: 1px;
 
 }
 
@@ -63,7 +63,7 @@
 .headerleft {
 	display: flex;
 	align-items: center;
-	margin-top: -1px;
+	margin-top: 1px;
 
 }
 
@@ -83,7 +83,7 @@
 	/* padding: 3px; */
 	border-radius: 5px;
 	box-shadow: 2px 2px 10px -5px;
-	margin-top: -1px;
+	margin-top: 1px;
 	height: -5px;
 
 }
@@ -116,7 +116,7 @@
 	background-color: rgb(12, 173, 248);
 	margin-right: 15px;
 	color: white;
-	margin-top: -1px;
+	margin-top: 1px;
 
 
 }
@@ -130,7 +130,7 @@
 	background-color: rgb(167, 225, 250);
 	margin-right: 15px;
 	color: rgb(44, 110, 136);
-	margin-top: -1px;
+	margin-top: 1px;
 
 }
 
@@ -233,7 +233,7 @@
 }
 
 .material-symbols-outlined {
-	margin-right: -4px;
+	margin-right: 1px;
 }
 
 .sidebodyopt {
@@ -300,7 +300,7 @@
 	background-color: white;
 	border: 1px solid darkgray;
 	/* position: relative; */
-	margin-top: -20px;
+	margin-top: 1px;
 	margin-left: 30px;
 	font-size: small;
 	border-right: transparent;
@@ -412,13 +412,14 @@ body {
 	display: flex;
 	align-items: 40px;
 	height: 40px;
-	padding: 0 10px;
+	padding: 1px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	cursor: pointer;
 	color: grey;
-	margin-left: -10px;
+	margin-left: 1px;
 	margin-top: 5px;
+	
 }
 
 .locbodyopt {
@@ -430,8 +431,8 @@ body {
 	border-bottom-left-radius: 20px;
 	cursor: pointer;
 	color: grey;
-	margin-left: -10px;
-	margin-top: -15px;
+	margin-left: 1px;
+	margin-top: 1px;
 }
 
 .twitter {
@@ -528,64 +529,69 @@ body {
 }
 
 .statnum {
-	margin-top: 15px;
-	margin-left: 12px;
+	padding:5px;
 	font-size: large;
 }
 
+
 .statnum2 {
 	margin-left: 55px;
-	margin-top: 15px;
+	margin-top: 1px;
+	font-size: large;
 }
 
+
 .statnum3 {
-	margin-left: -196px;
-	margin-top: 35px;
+	padding:5px;
+	margin-left:1px;
+	margin-top: 1px;
 	color: rgb(139, 143, 143);
 	font-size: 15px;
 }
 
 .statnum4 {
-	margin-left: 67px;
-	margin-top: 35px;
+	margin-left: 70px;
+	margin-top: 1px;
 	color: rgb(139, 143, 143);
 	font-size: 15px;
 }
 
 .statnum5 {
-	margin-top: 75px;
-	margin-left: -190px;
+	padding:5px;
+	margin-top: 1px;
+	margin-left: 1px;
 }
 
 .statnum6 {
-	margin-top: 75px;
-	margin-left: 77px;
+	margin-top: 1px;
+	margin-left: 87px;
 }
 
 .statnum7 {
-	margin-left: -155px;
-	margin-top: 95px;
+	padding:5px;
+	margin-top: 70px;
 	color: rgb(139, 143, 143);
 	font-size: 15px;
 }
 
 .statnum8 {
 	margin-left: 78px;
-	margin-top: 95px;
+	margin-top: 1px;
 	color: rgb(139, 143, 143);
 	font-size: 15px;
 }
 
 .cupimg {
+	padding:5px;
 	width: 20px;
 	height: 18px;
-	margin-top: 135px;
-	margin-left: -199px;
+	margin-top: 1px;
+	margin-left: 1px;
 }
 
 .statnum9 {
-	margin-left: -20px;
-	margin-top: 155px;
+	padding:5px;
+	margin-top: 1px;
 	color: rgb(139, 143, 143);
 	font-size: 15px;
 }
@@ -596,7 +602,7 @@ body {
 	padding-bottom: 15px;
 	margin: 10px;
 	border-radius: 5px;
-	display: flex;
+	
 
 }
 
@@ -604,8 +610,12 @@ body {
 	font-weight: 100;
 }
 
+.statAbout{
+	
+}
+
 .aboutbox {
-	margin-top: -195px;
+	margin-top: 1px;
 	margin-left: 310px;
 }
 
@@ -1549,7 +1559,11 @@ body {
 	color: rgb(96, 95, 93);
 	font-weight: 100;
 }
-
+.stringNum1{
+margin-top: 12px; 
+margin-left:240px ; 
+font-weight: 100; 
+}
 .stringScr1 {
 	margin-top: 16px;
 	margin-left: 3px;
