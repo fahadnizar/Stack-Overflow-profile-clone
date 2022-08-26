@@ -299,7 +299,6 @@
 	height: 240px;
 	background-color: white;
 	border: 1px solid darkgray;
-	/* position: relative; */
 	margin-top: 1px;
 	margin-left: 30px;
 	font-size: small;
@@ -348,8 +347,7 @@
 body {
 	height: 100vh;
 	overflow-y: hidden;
-	position: relative;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
 }
 
 
@@ -419,7 +417,7 @@ body {
 	color: grey;
 	margin-left: 1px;
 	margin-top: 5px;
-	
+
 }
 
 .locbodyopt {
@@ -507,6 +505,21 @@ body {
 
 }
 
+.aboutDescrp {
+	display: flex;
+}
+
+.statbox {
+	width: 240px;
+	border: 1px solid rgb(221, 225, 221);
+	/* padding-bottom: 5px; */
+	margin: 10px;
+	border-radius: 5px;
+	margin-bottom: 90px;
+
+}
+
+
 .stats {
 	display: flex;
 
@@ -521,15 +534,14 @@ body {
 }
 
 .about1 {
-	margin-left: 400px;
 	font-size: large;
 	font-weight: 100;
-	margin-left: 260px;
+	margin-left: 220px;
 	margin-top: 15px;
 }
 
 .statnum {
-	padding:5px;
+	padding: 5px;
 	font-size: large;
 }
 
@@ -542,8 +554,8 @@ body {
 
 
 .statnum3 {
-	padding:5px;
-	margin-left:1px;
+	padding: 5px;
+	margin-left: 1px;
 	margin-top: 1px;
 	color: rgb(139, 143, 143);
 	font-size: 15px;
@@ -557,7 +569,7 @@ body {
 }
 
 .statnum5 {
-	padding:5px;
+	padding: 5px;
 	margin-top: 1px;
 	margin-left: 1px;
 }
@@ -568,7 +580,7 @@ body {
 }
 
 .statnum7 {
-	padding:5px;
+	padding: 5px;
 	margin-top: 70px;
 	color: rgb(139, 143, 143);
 	font-size: 15px;
@@ -582,7 +594,7 @@ body {
 }
 
 .cupimg {
-	padding:5px;
+	padding: 5px;
 	width: 20px;
 	height: 18px;
 	margin-top: 1px;
@@ -590,145 +602,73 @@ body {
 }
 
 .statnum9 {
-	padding:5px;
+	padding: 5px;
 	margin-top: 1px;
 	color: rgb(139, 143, 143);
 	font-size: 15px;
-}
-
-.statbox {
-	width: 240px;
-	border: 1px solid rgb(221, 225, 221);
-	padding-bottom: 15px;
-	margin: 10px;
-	border-radius: 5px;
-	
-
 }
 
 .statbox h3 {
 	font-weight: 100;
 }
 
-.statAbout{
-	
+.aboutbox1 {}
+
+.aboutbox2 {
+	margin-top: 8px;
+	margin-left: 10px;
 }
 
-.aboutbox {
-	margin-top: 1px;
-	margin-left: 310px;
-}
-
-.aboutbox h3 {
+.aboutbox2 h3 {
 	font-weight: 100;
 	font-size: 15px;
 	color: rgb(65, 64, 64);
-}
-
-.abot {
-	margin-top: 4px;
-}
-
-.abot2 {
-	margin-top: 4px;
-}
-
-.author {
-	margin-top: -59px;
-	margin-left: 375px;
-}
-
-.authlink {
-	font-size: 15px;
-	font-weight: 400;
 }
 
 .sites {
-	font-weight: 400;
-	font-size: 14px;
-	margin-left: 310px;
-	margin-top: 60px;
-	color: rgb(65, 64, 64);
+	padding: 10px;
+	margin-left: 35px;
+
 }
 
-.ulstyle {
-	margin-left: 335px;
+.sites h3 {
+	color: blue;
 }
 
-.a1 {
+
+.email h3 {
+	font-weight: 100;
 	font-size: 15px;
-	font-weight: 400;
+	color: rgb(65, 64, 64);
+	margin-left: 30px;
 	margin-top: 20px;
 }
 
-.a2 {
-	font-size: 15px;
-	font-weight: 400;
-	margin-top: 10px;
-}
-
-.a3 {
-	font-size: 15px;
-	font-weight: 400;
-	margin-top: 10px;
-}
-
-.a4 {
-	font-size: 15px;
-	font-weight: 400;
-	margin-top: 10px;
-}
-
-.emailskeet {
-	font-weight: 100;
-	font-size: 15px;
-	color: rgb(65, 64, 64);
-	margin-left: 305px;
-	margin-top: 15px;
-}
-
-.blog1 {
-	margin-top: -17px;
-	margin-left: 585px;
-}
-
-.blog2 {
-	font-size: 15px;
-	font-weight: 400;
-}
-
-.blog3 {
-	font-weight: 100;
-	font-size: 15px;
-	color: rgb(65, 64, 64);
-	margin-left: 898px;
-	margin-top: -17px;
-}
 
 .collective {
 	font-size: large;
 	font-weight: 100;
 	margin-left: 12px;
-	margin-top: -25px;
 }
 
 .imgcollt {
-	width: 30px;
-	height: 30px;
-	margin-top: 10px;
+	width: 40px;
 	margin-left: 4px;
 }
 
-.gcloud {
+.gCloud {
 	font-weight: 400;
-	margin-top: 5px;
+	margin-top:10px;
+	margin-left:2px
 }
 
 .employeee {
 	font-weight: 400;
-	margin-top: -39px;
+	margin-bottom: 0px;
 	font-size: 10px;
-	margin-left: 55px;
+	margin-top:3px;
+	margin-left:3px;
+	
 }
 
 .commun {
@@ -738,87 +678,153 @@ body {
 	margin-top: 55px;
 }
 
-.viwall {
-	margin-top: -85px;
-	margin-left: 185px;
-	font-size: 13px;
+.stats {
+	display: flex;
+
+}
+
+.viewallcommunites {
+	margin-top:60px;
+	margin-left:80px;
+	font-size:13px;
 	font-weight: 100;
 }
 
-.imglinking {
+.linkingimg {
 	width: 15px;
-	height: 15px;
-	margin-top: 65px;
 	margin-left: 4px;
 }
 
-.logo1 {
-	margin-top: -175px;
-	margin-left: 20px;
+.stackAlign{
+	display:flex;
 }
 
-.logo2img {
+.metaAlign{
+	display:flex;
+}
+
+.superUserAlign{
+
+	display:flex;
+}
+
+.serverAlign{
+	display:flex;
+}
+
+.softEngAlign{
+	display:flex;
+	
+}
+.stackImg {
 	width: 20px;
+	padding:5px;
 }
 
-.metatxt {
+.stackTxt {
 	font-weight: 100;
-	margin-top: -20px;
 	font-size: 12px;
 	color: blue;
-	margin-left: 45px;
+	margin-top: 5px;
+	padding:5px;
 }
 
-.supusrimg1 {
-	margin-top: 10px;
-	margin-left: 24px;
-}
-
-.superusrimg2 {
-	width: 14px;
-}
-
-.supusrtxt {
+.million {
+	font-size: 10px;
 	font-weight: 100;
-	margin-top: -20px;
+	color: gray;
+	margin-top:12px;
+	margin-left:60px;
+}
+
+
+.metaImg {
+	width: 20px;
+	margin-left:5px;
+}
+
+.metaTxt {
+	font-weight: 100;
 	font-size: 12px;
 	color: blue;
-	margin-left: 45px;
+	margin-left: 10px;
+	margin-top:15px;
+
 }
 
-.serfltimg {
-	margin-top: 10px;
-	margin-left: 19px;
+.ratingk {
+	font-size: 10px;
+	font-weight: 100;
+	color: gray;
+	margin-top:17px;
+	margin-left:35px;
 }
 
-.srvfltimg2 {
+.superUserImg{
+	width: 15px;
+	margin-left:5px;
+	padding:5px;
+	margin-top:10px;
+}
+
+.superUserTxt {
+	font-weight: 100;
+	font-size: 12px;
+	color: blue;
+	padding:5px;
+	margin-top:10px;
+}
+.ratingk2 {
+	font-size: 10px;
+	font-weight: 100;
+	color: gray;
+	margin-top:18px;
+	margin-left:81px;
+}
+
+.serverFaultImg {
 	width: 29px;
+	padding:5px;
 }
 
-.srvflttxt {
+.serverFaultTxt {
 	font-weight: 100;
-	margin-top: -25px;
 	font-size: 12px;
 	color: blue;
-	margin-left: 45px;
+	padding:5px;
+	margin-top:5px;
+	margin-left:5px;
+	
 }
 
-.sftengimg1 {
-	margin-top: 10px;
-	margin-left: 14px;
+.ratingk3 {
+	font-size: 10px;
+	font-weight: 100;
+	color: gray;
+	margin-top:12px;
+	margin-left:62px;
 }
 
-.sftimg2 {
+.softEngImg {
 	width: 37px;
+
 }
 
-.sftengtxt {
+.softTxt {
 	font-weight: 100;
-	margin-top: -25px;
 	font-size: 12px;
 	color: blue;
-	margin-left: 45px;
+	margin-top:13px;
+	margin-left:10px;
 }
+.ratingk4 {
+	font-size: 10px;
+	font-weight: 100;
+	color: gray;
+	margin-top:13px;
+	margin-left:30px;
+}
+
 
 .statcomm {
 	font-size: large;
@@ -828,22 +834,8 @@ body {
 	color: rgb(255, 255, 255);
 }
 
-.staticonimg {
-	margin-top: -270px;
-	margin-left: 20px;
-}
 
-.staticimg2 {
-	width: 20px;
-}
 
-.stcktxt {
-	font-weight: 100;
-	margin-top: -15px;
-	font-size: 12px;
-	color: blue;
-	margin-left: 45px;
-}
 
 .badgetxt {
 	font-size: large;
@@ -859,45 +851,14 @@ body {
 	margin-top: -20px;
 }
 
-.million {
-	font-size: 10px;
-	font-weight: 100;
-	color: gray;
-	margin-left: 205px;
-	margin-top: 30px;
-}
 
-.ratingk {
-	font-size: 10px;
-	font-weight: 100;
-	color: gray;
-	margin-left: 205px;
-	margin-top: 21px;
-}
 
-.ratingk2 {
-	font-size: 10px;
-	font-weight: 100;
-	color: gray;
-	margin-left: 205px;
-	margin-top: 14px;
-}
 
-.ratingk3 {
-	font-size: 10px;
-	font-weight: 100;
-	color: gray;
-	margin-left: 205px;
-	margin-top: 19px;
-}
 
-.ratingk4 {
-	font-size: 10px;
-	font-weight: 100;
-	color: gray;
-	margin-left: 205px;
-	margin-top: 31px;
-}
+
+
+
+
 
 .badgimg1 {
 	margin-left: 20px;
@@ -1032,15 +993,11 @@ body {
 	display: flex;
 }
 
-.commubox {
+.communitybox {
 	width: 240px;
-	height: 1px;
 	border: 1px solid rgb(221, 225, 221);
-	padding-bottom: 205px;
 	margin: 10px;
 	border-radius: 5px;
-	display: flex;
-
 }
 
 .badgebox {
@@ -1559,11 +1516,13 @@ body {
 	color: rgb(96, 95, 93);
 	font-weight: 100;
 }
-.stringNum1{
-margin-top: 12px; 
-margin-left:240px ; 
-font-weight: 100; 
+
+.stringNum1 {
+	margin-top: 12px;
+	margin-left: 240px;
+	font-weight: 100;
 }
+
 .stringScr1 {
 	margin-top: 16px;
 	margin-left: 3px;
@@ -2071,22 +2030,10 @@ font-weight: 100;
 }
 
 .dropdown {
-	position: relative;
 	display: inline-block;
 }
 
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 1;
-	margin-left: -150px;
-	margin-top: 1px;
-	padding-top: 15px;
 
-}
 
 .dropdown-content a {
 	color: black;
