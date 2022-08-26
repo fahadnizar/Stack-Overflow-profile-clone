@@ -658,17 +658,17 @@ body {
 
 .gCloud {
 	font-weight: 400;
-	margin-top:10px;
-	margin-left:2px
+	margin-top: 10px;
+	margin-left: 2px
 }
 
 .employeee {
 	font-weight: 400;
 	margin-bottom: 0px;
 	font-size: 10px;
-	margin-top:3px;
-	margin-left:3px;
-	
+	margin-top: 3px;
+	margin-left: 3px;
+
 }
 
 .commun {
@@ -684,64 +684,79 @@ body {
 }
 
 .viewallcommunites {
-	margin-top:60px;
-	margin-left:80px;
-	font-size:13px;
+	margin-top: 60px;
+	margin-left: 80px;
+	font-size: 13px;
 	font-weight: 100;
 }
+
+.badgetxt {
+	font-size: large;
+	font-weight: 100;
+
+}
+
+.viewbdg {
+	font-size: 13px;
+	font-weight: 100;
+	margin-left: 600px;
+	margin-top: 60px;
+}
+
 
 .linkingimg {
 	width: 15px;
 	margin-left: 4px;
 }
 
-.stackAlign{
-	display:flex;
+.stackAlign {
+	display: flex;
 }
 
-.metaAlign{
-	display:flex;
+.metaAlign {
+	display: flex;
 }
 
-.superUserAlign{
+.superUserAlign {
 
-	display:flex;
+	display: flex;
 }
 
-.serverAlign{
-	display:flex;
+.serverAlign {
+	display: flex;
 }
 
-.softEngAlign{
-	display:flex;
-	
+.softEngAlign {
+	display: flex;
+
 }
+
 .stackImg {
 	width: 20px;
-	padding:5px;
+	padding: 5px;
 }
 
 .stackTxt {
 	font-weight: 100;
 	font-size: 12px;
 	color: blue;
-	margin-top:8px;
-	margin-left:10px;
-	padding:5px;
+	margin-top: 8px;
+	margin-left: 10px;
+	padding: 5px;
 }
 
 .million {
 	font-size: 10px;
 	font-weight: 100;
 	color: gray;
-	margin-top:12px;
-	margin-left:60px;
+	margin-top: 12px;
+	margin-left: 60px;
 }
 
 
 .metaImg {
 	width: 20px;
-	margin-left:5px;
+	margin-left: 5px;
 }
 
 .metaTxt {
@@ -749,7 +764,7 @@ body {
 	font-size: 12px;
 	color: blue;
 	margin-left: 18px;
-	margin-top:15px;
+	margin-top: 15px;
 
 }
 
@@ -757,54 +772,55 @@ body {
 	font-size: 10px;
 	font-weight: 100;
 	color: gray;
-	margin-top:17px;
-	margin-left:35px;
+	margin-top: 17px;
+	margin-left: 35px;
 }
 
-.superUserImg{
+.superUserImg {
 	width: 15px;
-	margin-left:5px;
-	padding:5px;
-	margin-top:10px;
+	margin-left: 5px;
+	padding: 5px;
+	margin-top: 10px;
 }
 
 .superUserTxt {
 	font-weight: 100;
 	font-size: 12px;
 	color: blue;
-	padding:5px;
-	margin-top:10px;
-	margin-left:13px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 13px;
 }
+
 .ratingk2 {
 	font-size: 10px;
 	font-weight: 100;
 	color: gray;
-	margin-top:18px;
-	margin-left:79px;
+	margin-top: 18px;
+	margin-left: 79px;
 }
 
 .serverFaultImg {
 	width: 29px;
-	padding:5px;
+	padding: 5px;
 }
 
 .serverFaultTxt {
 	font-weight: 100;
 	font-size: 12px;
 	color: blue;
-	padding:5px;
-	margin-top:5px;
-	margin-left:3px;
-	
+	padding: 5px;
+	margin-top: 5px;
+	margin-left: 3px;
+
 }
 
 .ratingk3 {
 	font-size: 10px;
 	font-weight: 100;
 	color: gray;
-	margin-top:12px;
-	margin-left:72px;
+	margin-top: 12px;
+	margin-left: 72px;
 }
 
 .softEngImg {
@@ -816,15 +832,16 @@ body {
 	font-weight: 100;
 	font-size: 12px;
 	color: blue;
-	margin-top:13px;
-	margin-left:10px;
+	margin-top: 13px;
+	margin-left: 10px;
 }
+
 .ratingk4 {
 	font-size: 10px;
 	font-weight: 100;
 	color: gray;
-	margin-top:13px;
-	margin-left:30px;
+	margin-top: 13px;
+	margin-left: 30px;
 }
 
 
@@ -836,31 +853,18 @@ body {
 	color: rgb(255, 255, 255);
 }
 
-
-
-
-.badgetxt {
-	font-size: large;
-	font-weight: 100;
-	margin-left: 300px;
-	margin-top: -60px;
+.communityBadge {
+	dispaly: flex;
 }
 
-.viewbdg {
-	font-size: 13px;
-	font-weight: 100;
-	margin-left: 1000px;
-	margin-top: -20px;
+.badgeBox {
+	width: 240px;
+	border: 1px solid rgb(221, 225, 221);
+	margin-top: 0px;
+	border-radius: 5px;
+	display: flex;
+
 }
-
-
-
-
-
-
-
-
-
 
 .badgimg1 {
 	margin-left: 20px;
@@ -877,64 +881,11 @@ body {
 }
 
 .gbdgtxt {
-	margin-left: -31px;
 	margin-top: 40px;
 	font-weight: 400;
 	font-size: small;
 }
 
-.delegats {
-	margin-top: 70px;
-	margin-left: -125px;
-}
-
-.boxgbutton {
-	padding-left: 19px;
-}
-
-.boxgbutton2 {
-	margin-left: -125px;
-	margin-top: 15px;
-
-}
-
-.btn2txt {
-	padding-left: 19px;
-}
-
-.boxgbutton3 {
-	margin-left: -125px;
-	margin-top: 15px;
-}
-
-.btn3txt {
-	padding-left: 19px;
-}
-
-.ratingGbox1 {
-	font-size: 10px;
-	font-weight: 100;
-	color: gray;
-	margin-left: 495px;
-	margin-top: -130px;
-}
-
-.ratingGbox2 {
-	font-size: 10px;
-	font-weight: 100;
-	color: gray;
-	margin-left: 495px;
-	margin-top: 30px;
-}
-
-.ratingGbox3 {
-	font-size: 10px;
-	font-weight: 100;
-	color: gray;
-	margin-left: 495px;
-	margin-top: 30px;
-
-}
 
 .silverimg1 {
 	margin-left: 20px;
@@ -1102,22 +1053,6 @@ body {
 	color: gray;
 	margin-left: 760px;
 	margin-top: 30px;
-}
-
-
-}
-
-.badgebox {
-	width: 240px;
-	height: 1px;
-	border: 1px solid rgb(221, 225, 221);
-	padding-bottom: 205px;
-	/* margin: 10px; */
-	margin-left: 300px;
-	margin-top: -160px;
-	border-radius: 5px;
-	display: flex;
-
 }
 
 
@@ -2034,7 +1969,6 @@ body {
 .dropdown {
 	display: inline-block;
 }
-
 
 
 .dropdown-content a {
