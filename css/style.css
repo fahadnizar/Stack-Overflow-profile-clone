@@ -5,9 +5,7 @@
 
 .headerleft img {
 	object-fit: contain;
-
 	margin-left: 20px;
-
 	margin-top: 1px;
 
 }
@@ -189,9 +187,7 @@
 .users {
 	font-weight: 750;
 	font-size: small;
-	padding-left: 15px;
 	margin-left: 35px;
-	margin-top: 15px;
 	background-color: rgb(236, 232, 232);
 	padding: 10px;
 	cursor: pointer;
