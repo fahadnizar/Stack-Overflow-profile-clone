@@ -342,7 +342,7 @@ body {
 
 .listhead {
 	flex: 1;
-	overflow: scroll;
+
 }
 
 .listsetting {
@@ -1017,13 +1017,14 @@ body {
 }
 
 .toptagtitle {
-	margin-left: 80px;
+	margin-left: 206px;
 	font-weight: 100;
 }
 
 .viewtoptags {
 	font-size: 13px;
 	font-weight: 100;
+	margin-left: 495px;
 }
 
 
@@ -1805,6 +1806,7 @@ body {
 .footer {
 	display: flex;
 	background-color: hsl(210, 8%, 15%);
+	margin-top: 1998px;
 }
 
 .footerImg {
