@@ -509,7 +509,6 @@ body {
 }
 
 .stats1 {
-	margin-left: 400px;
 	font-size: large;
 	font-weight: 400;
 	margin-left: 12px;
@@ -653,10 +652,7 @@ body {
 }
 
 
-.stats {
-	display: flex;
 
-}
 
 .commun {
 	font-size: large;
