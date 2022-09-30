@@ -326,7 +326,6 @@
 /* bigbody */
 .bigbody {
 	display: flex;
-	height: 100vh;
 }
 
 body {
@@ -1800,7 +1799,7 @@ body {
 .footer {
 	display: flex;
 	background-color: hsl(210, 8%, 15%);
-	margin-top: 1998px;
+	
 }
 
 .footerImg {
